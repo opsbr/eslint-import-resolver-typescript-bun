@@ -8,7 +8,9 @@ test.each([
   { source: "fs", found: true, path: null },
   { source: "node:fs", found: true, path: null },
   { source: "not_found", found: false, path: undefined },
+  { source: "bun", found: true, path: null },
   { source: "bun:test", found: true, path: null },
+  { source: "bun:not_found", found: false, path: undefined },
 ])(
   "resolve $source => found: $found, path: $path",
   ({ source, found, path }) => {
