@@ -4,6 +4,7 @@ const project = new OpsBRTypeScriptProject({
   defaultReleaseBranch: "main",
   deps: ["debug", "eslint-import-resolver-typescript"],
   devDeps: ["@opsbr/projen-typescript", "@types/debug"],
+  peerDeps: ["bun-types"],
   workflowPackageCache: true,
   releaseToNpm: true,
 });

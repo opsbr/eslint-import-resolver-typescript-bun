@@ -1465,6 +1465,11 @@ builtins@^5.0.0:
   dependencies:
     semver "^7.0.0"
 
+bun-types@^0.6.12:
+  version "0.6.12"
+  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-0.6.12.tgz#a2bdc7f2dc5e94f7e8f87f309c7c186956d28473"
+  integrity sha512-cICej22OR6uFNWMRgjKZR7X5w8WEsbM0lXhzftwCNvdsBDKNgLqLas5G2K0PuxLIxrUg859pP1i+FrngiotV1Q==
+
 bundle-name@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bundle-name/-/bundle-name-3.0.0.tgz#ba59bcc9ac785fb67ccdbf104a2bf60c099f0e1a"
