@@ -10,7 +10,7 @@ export const interfaceVersion = 2;
 export const resolve: typeof resolveTs = function (source, file, config) {
   if (source.startsWith("bun:")) {
     log("matched bun modules:", source);
-    return { found: true };
+    return { found: true, path: null };
   }
   return resolveTs(source, file, config);
 };

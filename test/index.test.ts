@@ -5,10 +5,15 @@ test("interfaceVersion", () => {
 });
 
 test.each([
-  { source: "fs", found: true },
-  { source: "node:fs", found: true },
-  { source: "not_found", found: false },
-  { source: "bun:test", found: true },
-])("resolve $source => found $found", ({ source, found }) => {
-  expect(resolve(source, "").found).toBe(found);
-});
+  { source: "fs", found: true, path: null },
+  { source: "node:fs", found: true, path: null },
+  { source: "not_found", found: false, path: undefined },
+  { source: "bun:test", found: true, path: null },
+])(
+  "resolve $source => found: $found, path: $path",
+  ({ source, found, path }) => {
+    const result = resolve(source, "");
+    expect(result.found).toBe(found);
+    expect(result.path).toBe(path);
+  }
+);
