@@ -1,5 +1,9 @@
 {
   "name": "eslint-import-resolver-typescript-bun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opsbr/eslint-import-resolver-typescript-bun"
+  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -58,7 +62,11 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/opsbr/eslint-import-resolver-typescript-bun",
   "version": "0.0.0",
+  "bugs": {
+    "url": "https://github.com/opsbr/eslint-import-resolver-typescript-bun/issues"
+  },
   "jest": {
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.ts?(x)",
