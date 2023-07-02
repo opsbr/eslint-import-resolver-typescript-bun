@@ -49,7 +49,7 @@ module.exports = {
     },
     "import/resolver": {
       "typescript-bun": {
-        // <= HERE!
+        // ^^ HERE! ^^
         project: true,
         alwaysTryTypes: true,
       },
