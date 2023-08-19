@@ -737,10 +737,10 @@
   resolved "https://registry.yarnpkg.com/@oozcitak/util/-/util-8.3.8.tgz#10f65fe1891fd8cde4957360835e78fd1936bfdd"
   integrity sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==
 
-"@opsbr/projen-typescript@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@opsbr/projen-typescript/-/projen-typescript-0.0.14.tgz#0bbc4ec1853e4e20e81d0743f448864ca20de9ba"
-  integrity sha512-gUKnXjhNvy8dubv1ZhDwiBb5aVhq2lEx+0sfCE+H/uQV/dKlIRY6KLUF0/waMFrMR8eXt4zoKHLkzRcQ97ZA6w==
+"@opsbr/projen-typescript@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@opsbr/projen-typescript/-/projen-typescript-0.0.18.tgz#79b03910298a37933f2c02bca42c08678c3ded30"
+  integrity sha512-jSgPO2RI44lS2TEaCkCwuEaaw/+1kbnIcZkku6Vh1YI8g4tfn4VaEJAucojRwxiiHCtKixbDMVRxkChDRG56/A==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
