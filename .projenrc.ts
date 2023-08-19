@@ -11,5 +11,7 @@ const project = new OpsBRTypeScriptProject({
   peerDeps: ["bun-types"],
   workflowPackageCache: true,
   releaseToNpm: true,
+  autoApproveUpgrades: true,
+  autoApproveOptions: {},
 });
 project.synth();
