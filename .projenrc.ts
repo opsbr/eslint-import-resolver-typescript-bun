@@ -12,6 +12,8 @@ const project = new OpsBRTypeScriptProject({
   workflowPackageCache: true,
   releaseToNpm: true,
   autoApproveUpgrades: true,
-  autoApproveOptions: {},
+  autoApproveOptions: {
+    allowedUsernames: ["opsbr-bot[bot]"],
+  },
 });
 project.synth();
