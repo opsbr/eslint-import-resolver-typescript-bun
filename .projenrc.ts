@@ -1,4 +1,5 @@
 import { OpsBRTypeScriptProject } from "@opsbr/projen-typescript";
+import { javascript } from "projen";
 const project = new OpsBRTypeScriptProject({
   name: "eslint-import-resolver-typescript-bun",
   defaultReleaseBranch: "main",
@@ -14,6 +15,11 @@ const project = new OpsBRTypeScriptProject({
   autoApproveUpgrades: true,
   autoApproveOptions: {
     allowedUsernames: ["opsbr-bot[bot]"],
+  },
+  depsUpgradeOptions: {
+    workflowOptions: {
+      schedule: javascript.UpgradeDependenciesSchedule.WEEKLY,
+    },
   },
 });
 project.synth();
