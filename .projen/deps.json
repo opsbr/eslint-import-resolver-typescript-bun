@@ -28,10 +28,6 @@
       "type": "build"
     },
     {
-      "name": "bun-types",
-      "type": "build"
-    },
-    {
       "name": "eslint-config-prettier",
       "type": "build"
     },
