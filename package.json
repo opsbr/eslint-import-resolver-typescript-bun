@@ -30,7 +30,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@opsbr/projen-typescript": "^0.0.49",
+    "@opsbr/projen-typescript": "^0.0.50",
     "@types/debug": "^4.1.12",
     "@types/jest": "^29.5.12",
     "@types/node": "^18",
