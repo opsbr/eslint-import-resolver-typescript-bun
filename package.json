@@ -30,7 +30,7 @@
     "organization": true
   },
   "devDependencies": {
-    "@opsbr/projen-typescript": "^0.0.66",
+    "@opsbr/projen-typescript": "^0.0.67",
     "@types/debug": "^4.1.12",
     "@types/jest": "^29.5.12",
     "@types/node": "^18",
@@ -48,7 +48,7 @@
     "prettier": "^2.8.8",
     "projen": "^0.82.8",
     "standard-version": "^9",
-    "ts-jest": "^29.1.5",
+    "ts-jest": "^29.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
